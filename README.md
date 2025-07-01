@@ -62,27 +62,19 @@ DB_CONNECTION=sqlite
 DB_DATABASE=database/database.sqlite
 ```
 
-3. Продолжай с шага миграции и запуска сервера.
-
-```
-DB_DATABASE=your_db
-DB_USERNAME=your_user
-DB_PASSWORD=your_password
-```
-
-5. **Выполни миграции и сидеры:**
+3 **Выполни миграции и сидеры:**
 
 ```bash
 php artisan migrate --seed
 ```
 
-6. **Собери фронтенд в продакшен-бандл:**
+4 **Собери фронтенд в продакшен-бандл:**
 
 ```bash
 npm run build
 ```
 
-7. **Запусти сервер Laravel:**
+5 **Запусти сервер Laravel:**
 
 ```bash
 php artisan serve
