@@ -7,7 +7,7 @@
 
 ## 📦 Стек технологий
 
-- **Backend:** Laravel 11 (PHP 8.2)
+- **Backend:** Laravel 12 (PHP 8.2)
 - **Frontend:** Vue 3 + Vite + Inertia.js
 - **UI:** Tailwind + shadcn/ui
 - **База данных:** MySQL / PostgreSQL
